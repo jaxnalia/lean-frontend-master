@@ -2,37 +2,6 @@
 import { createWeb3Modal, defaultWagmiConfig } from '@web3modal/wagmi'
 import { pulsechain } from 'viem/chains'
 
-
-
-
-
-// import { writeContract } from '@wagmi/core'
-// import { contractABI } from './contractABI.json'
-
-// onMount(async () => {
-//     const { hash } = await writeContract({
-//     address: '0x2b2F7603235cCae616D5e50Cd69e3e152b53Ed5A',
-//     abi: [
-//       {
-//         name: 'claim',
-//         type: 'function',
-//         stateMutability: 'payable',
-//         inputs: [
-// 			{
-// 				internalType: "uint256",
-// 				name: "_numberOfTokens",
-// 				type: "uint256"
-// 			}
-// 		],
-//         outputs: [],
-//       },
-//     ],
-//     functionName: 'claim',
-//     args: [parseInt(tokenAmount)],
-//     chainId: 369
-//     })
-// });
-
     // 1. Define constants
 
     const projectId = 'LEAN'

@@ -1,7 +1,7 @@
 <script>
 	import Hero from "./Hero.svelte";
 	const glass =
-		'container mx-auto p-8 mb-10 overflow-hidden md:rounded-lg md:p-10 lg:p-12 z-20 items-center h-screen overflow-hidden';
+		'container mx-auto p-8 overflow-hidden md:rounded-lg md:p-10 lg:p-12 z-20 items-center overflow-hidden';
 </script>
 
 <div class="h-10" />

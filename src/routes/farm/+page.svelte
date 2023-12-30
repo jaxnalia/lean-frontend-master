@@ -48,7 +48,7 @@
 	})
 
 	const glass =
-		'relative flex flex-col h-screen items-center backdrop-blur';
+		'relative flex flex-col items-center backdrop-blur';
 
 	const title =
 		'font-bebas-neue uppercase text-4xl font-black flex flex-col container leading-none';
