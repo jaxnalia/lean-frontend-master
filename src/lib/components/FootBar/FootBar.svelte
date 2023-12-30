@@ -2,7 +2,7 @@
 	import { TwitterLogo, DiscordLogo, PaperPlane, GithubLogo } from 'radix-icons-svelte';
 	import lean_cup from '../../images/logo.png';
 	const footStyle =
-		'supports-[backdrop-filter]:bg-background/60 sticky top-0 z-40 w-full px-3 pt-4 lg:px-9 bg-background/95 shadow-sm backdrop-blur';
+		'supports-[backdrop-filter]:bg-background/60 sticky top-0 z-40 w-full px-3 pt-4 lg:px-9 bg-background/95 backdrop-blur';
 	const link = {
 		tele: 'https://t.me/plsLEAN',
 		cord: 'https://discord.gg/NRg34Rawc6',
