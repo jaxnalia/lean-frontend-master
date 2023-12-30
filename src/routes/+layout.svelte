@@ -20,11 +20,11 @@
 	<meta property="og:image" content="https://bigjax.s3.eu-west-2.amazonaws.com/twitter-image-2.jpg">
 	<meta property="og:description" content="Artificially scarce liquidity on PulseChain.">
 </svelte:head>
-
+<Analytics />
 <ModeWatcher></ModeWatcher>
 
 
-<Analytics />
+
 <NavBar></NavBar>
 
 <slot></slot>
