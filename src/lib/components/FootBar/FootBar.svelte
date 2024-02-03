@@ -37,7 +37,7 @@
 			</a>. Built by
 			<a
 				style="margin-right: -3px;"
-				href="https://x.com/bigjax_eth"
+				href="https://x.com/bigjax_pls"
 				class="text-purple-600 hover:underline dark:text-violet-500"
 			>
 				BigJax
