@@ -2,7 +2,7 @@
 	import { Button } from '$lib/components/ui/button';
 	import * as DropdownMenu from '$lib/components/ui/dropdown-menu';
 	import NavBarSheet from './NavBarSheet.svelte';
-	import LightSwitch from './LightSwitch.svelte';
+	// import LightSwitch from './LightSwitch.svelte';
 	import WalletConnect from '../../WalletConnect.svelte';
 	import lean_cup from '../../images/logo.png';
 
@@ -103,7 +103,7 @@
 			<div class="w-full flex-1 md:w-auto md:flex-none" data-svelte-h="svelte-1eg3ung" />
 			<nav class="flex items-center space-x-1">
 				<WalletConnect />
-				<LightSwitch />
+				<!-- <LightSwitch /> -->
 			</nav>
 		</div>
 	</div>
