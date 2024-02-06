@@ -46,7 +46,7 @@
 					</svg>
 				</div>
 				<p class="ml-3 leading-5 text-gray-200">
-					100% Grass roots community.
+					100% Grass roots community token.
 				</p>
 			</li>
 			<li class="flex items-start lg:col-span-1">
