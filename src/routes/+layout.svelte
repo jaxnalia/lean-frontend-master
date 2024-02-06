@@ -1,6 +1,5 @@
 <script>
 	import "../app.pcss";
-    import {ModeWatcher} from 'mode-watcher'
 
     import NavBar from '$lib/components/NavBar/NavBar.svelte';
     import FootBar from '$lib/components/FootBar/FootBar.svelte';
@@ -21,7 +20,7 @@
 	<meta property="og:description" content="Artificially scarce liquidity on PulseChain.">
 </svelte:head>
 <Analytics />
-<ModeWatcher></ModeWatcher>
+
 
 
 
