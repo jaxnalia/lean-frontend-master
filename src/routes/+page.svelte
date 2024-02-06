@@ -4,7 +4,7 @@
 		'container mx-auto p-8 overflow-hidden md:rounded-lg md:p-10 lg:p-12 z-20 items-center overflow-hidden';
 </script>
 
-<div class="h-10" />
+
 <div class={glass}>
 
 	<Hero />

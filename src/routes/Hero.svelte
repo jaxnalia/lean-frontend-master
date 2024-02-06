@@ -3,7 +3,7 @@
 		'font-bebas-neue uppercase text-6xl sm:text-7xl font-black flex flex-col leading-none';
 </script>
 
-<div class=" mx-auto px-6 flex relative py-16">
+<div class=" mx-auto md:px-6 flex relative py-16">
 	<div class="sm:w-2/3 lg:w-2/5 flex flex-col relative z-20">
 		<span class="w-20 h-2 bg-purple-900 mb-12" />
 		<h1 class={title}>
@@ -22,9 +22,9 @@
 		<div class="flex mt-8">
 			<a
 				href="/farm"
-				class="text-xl font-bold uppercase py-2 px-4 rounded-lg bg-purple-500 border-2 border-transparent text-md mr-4 hover:bg-purple-900"
+				class="text-3xl font-bold py-2 px-4 rounded-full bg-purple-500 border-2 border-transparent text-md mr-4 hover:bg-purple-900"
 			>
-				Enter 🧑‍🌾🚜
+				Enter Farm 🧑‍🌾
 			</a>
 			<!-- <a
 				href="/paper"
