@@ -12,9 +12,10 @@
 </div>
 	
 	
-	<div class="container flex flex-col lg:flex-row justify-center">
-		<iframe
-	class="rounded-xl"
+<div class="container flex flex-col lg:flex-row justify-center">
+
+	<iframe
+	class="rounded-xl self-center"
 	title="Swap PLS for LEAN on Piteas.io"
 	src="https://widget.piteas.io/#/swap?theme=dark&inputCurrency=PLS&outputCurrency=0x1c9b5e57AA89f8b58CA28249E347A6C933726449&exactField=input&exactAmount=1000000"
 	height="720px"
@@ -23,12 +24,12 @@
 	border: 0;
 	margin-bottom: 0.5rem;
 	display: block;
-	max-width: 600px;
+	max-width: 500px;
 	min-width: 300px;
 	"
 	/>
-	
-	<div class="lg:ml-6 lg:col-start-2 lg:max-w-2xl pb-16 lg:pt-16">
+	<span class="h-6"></span>
+	<div class="lg:ml-12 lg:col-start-2 lg:max-w-2xl pb-16 lg:pt-16 self-center lg:self-auto">
 		<a href="https://app.piteas.io/" target="_blank" class="text-gray-400 font-semibold leading-6 uppercase">
 			Piteas.io
 		</a>
@@ -99,7 +100,8 @@
 			</li>
 		</ul>
 	</div>
-		
-		
+	
+	
 
-	</div>
+</div>
+<div class="h-6" />
