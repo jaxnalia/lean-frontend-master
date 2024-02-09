@@ -1,17 +1,16 @@
 <script>
 	import Hero from "./Hero.svelte";
-	const glass =
-		'container mx-auto p-8 overflow-hidden md:rounded-lg md:p-10 lg:p-12 z-20 items-center overflow-hidden';
 </script>
 
 
-<div class={glass}>
+<div class="container mx-auto p-8 overflow-hidden md:p-10 lg:p-12 z-20 items-center overflow-hidden">
 
 	<Hero />
 
 </div>
-	
-	
+
+<div class="h-6"></div>
+
 <div class="container flex flex-col lg:flex-row justify-center">
 
 	<iframe
@@ -28,7 +27,7 @@
 	min-width: 300px;
 	"
 	/>
-	<span class="h-6"></span>
+	<span class="h-2"></span>
 	<div class="lg:ml-12 lg:col-start-2 lg:max-w-2xl pb-16 lg:pt-16 self-center lg:self-auto">
 		<a href="https://app.piteas.io/" target="_blank" class="text-gray-400 font-semibold leading-6 uppercase">
 			Piteas.io

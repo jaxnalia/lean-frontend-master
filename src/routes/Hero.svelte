@@ -5,7 +5,7 @@
 	import { ArrowRight } from 'radix-icons-svelte'
 </script>
 
-<div class=" mx-auto md:px-6 flex relative py-16">
+<div class=" mx-auto flex relative">
 	<div class="sm:w-2/3 lg:w-2/5 flex flex-col relative z-20">
 		<span class="w-20 h-2 bg-purple-900 mb-12" />
 		<h1 class={title}>
