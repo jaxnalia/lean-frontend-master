@@ -12,6 +12,7 @@
 		explorer: 'https://bafybeicjuszlj6w3gg5mfszvo7z6ux4iaafhw62vfyfw27nm65bexodov4.ipfs.dweb.link/#/address/0x1c9b5e57AA89f8b58CA28249E347A6C933726449',
 		git: 'https://github.com/LEAN-Token'
 	};
+	import { Github, Send, Twitter } from "lucide-svelte";
 </script>
 
 
@@ -46,16 +47,13 @@
 		<div>
 			<div class="flex items-center gap-1 px-2">
 				<a target="_blank" class="p-2 min-w-xl" href={link.xapp}>
-					<TwitterLogo size="20" />
+					<Twitter size="20" />
 				</a>
 				<a target="_blank" href={link.tele} class="p-2 min-w-xl">
-					<PaperPlane size="20" />
-				</a>
-				<a target="blank" class="p-2 min-w-xl" href={link.cord}>
-					<DiscordLogo size="20" />
+					<Send size="20" />
 				</a>
 				<a target="blank" class="p-2 min-w-xl" href={link.git}>
-					<GithubLogo size="20" />
+					<Github size="20" />
 				</a>
 			</div>
 		</div>
