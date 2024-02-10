@@ -8,7 +8,8 @@
 	LineChart,
 	Send,
 	Twitter,
-    PercentCircle,
+    // PercentCircle,
+	Percent
   } from "lucide-svelte";
 
 </script>
@@ -35,7 +36,7 @@
 						<!-- <DropdownMenu.Separator /> --> 
 						<a href="/farm">
 							<DropdownMenu.Item>
-								<PercentCircle class="h-5 w-5" />
+								<Percent class="h-5 w-5" />
 								<DropdownMenu.Label>Staking</DropdownMenu.Label>
 							</DropdownMenu.Item>
 						</a>

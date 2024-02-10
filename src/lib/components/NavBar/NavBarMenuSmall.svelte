@@ -5,7 +5,7 @@
 	Send,
 	Twitter,
     Plus,
-    PlusCircle,
+    Percent,
 	PercentCircle,
     User,
     UserPlus,
@@ -38,7 +38,7 @@
 
 			<a href="/farm">
 				<DropdownMenu.Item>
-					<PercentCircle class="mr-2 h-5 w-5" />
+					<Percent class="mr-2 h-5 w-5" />
 					<span>Staking</span>
 					<!-- <DropdownMenu.Shortcut>⇧⌘P</DropdownMenu.Shortcut> -->
 				  </DropdownMenu.Item>
