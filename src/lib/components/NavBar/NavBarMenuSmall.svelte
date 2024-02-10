@@ -23,9 +23,9 @@
 		  <NavLogo />
 		  
 		</DropdownMenu.Trigger>
-		<DropdownMenu.Content class="w-56">
-		  <DropdownMenu.Label>$LEAN</DropdownMenu.Label>
-		  <DropdownMenu.Separator />
+		<DropdownMenu.Content class="w-44">
+		  <!-- <DropdownMenu.Label>$LEAN</DropdownMenu.Label>
+		  <DropdownMenu.Separator /> -->
 		  <DropdownMenu.Group>
 
 			<a href="/">
@@ -63,10 +63,10 @@
 		  <!-- <DropdownMenu.Separator /> -->
 		  <DropdownMenu.Group>
 			
-			<DropdownMenu.Item>
+			<!-- <DropdownMenu.Item>
 			  <Plus class="mr-2 h-5 w-5" />
 			  <span>Suggest Farm</span>
-			</DropdownMenu.Item>
+			</DropdownMenu.Item> -->
 			<a href="https://dexscreener.com/pulsechain/0x9961c2652b301c4a25256db05316d2be11cebab1" target="_blank">
 				<DropdownMenu.Item>
 					<LineChart class="mr-2 h-5 w-5" />
