@@ -1,42 +1,30 @@
 <script>
 	import { Button } from '$lib/components/ui/button';
 	import * as DropdownMenu from '$lib/components/ui/dropdown-menu';
-	import NavBarSheet from './NavBarSheet.svelte';
-	// import LightSwitch from './LightSwitch.svelte';
+	import NavBarMenuSmall from './NavBarMenuSmall.svelte';
 	import WalletConnect from '../../WalletConnect.svelte';
 	import lean_cup from '../../images/logo.png';
+	import {
+	LineChart,
+	Send,
+	Twitter,
+    PercentCircle,
+  } from "lucide-svelte";
 
-	const headStyle =
-		'supports-[backdrop-filter]:bg-background/60 sticky top-0 z-40 w-full border-b bg-background/60 shadow-sm backdrop-blur';
-
-	const navStyle = 'relative py-2 flex items-center space-x-6 text-sm font-medium transition-all';
-
-	const navIcon =
-		'inline-flex items-center justify-center font-medium whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-8 rounded-md text-xs w-9 px-0';
-
-	const navItem =
-		'pt-1.5 font-dm text-sm font-medium transition-colors hover:text-foreground/80 text-foreground/60';
-
-	const chartLink = 'https://dexscreener.com/pulsechain/0x9961c2652b301c4a25256db05316d2be11cebab1';
-	const teleLink = 'https://t.me/plsLEAN';
-	const cordLink = 'https://discord.gg/NRg34Rawc6';
-	const githubLink = 'https://github.com/AnEntrypoint';
-	const twitter = 'https://x.com/pls_lean';
-	const logoAltText = 'LEAN';
 </script>
 
 
-<header class={headStyle}>
+<header class="supports-[backdrop-filter]:bg-background/60 sticky top-0 z-40 w-full border-b bg-background/60 shadow-sm backdrop-blur">
 	<div class="container flex h-14 items-center">
 		<div class="mr-4 hidden md:flex">
 			<nav class="relative py-2 flex items-center space-x-2 text-sm font-medium">
 				<a href="/" class="mr-3 flex items-center space-x-2">
-					<img src={lean_cup} alt={logoAltText} class="w-8" />
+					<img src={lean_cup} alt="LEAN" class="w-8" />
 				</a>
 				<!-- home, charts -->
 				<DropdownMenu.Root>
 					<DropdownMenu.Trigger asChild let:builder>
-						<Button variant="link" class={navItem} builders={[builder]}>Explore</Button>
+						<Button variant="link" builders={[builder]}>Explore</Button>
 					</DropdownMenu.Trigger>
 					<DropdownMenu.Content class="w-auto">
 						<!-- <a href="/home" class={navItem}>
@@ -45,15 +33,17 @@
 							</DropdownMenu.Item> -->
 						<!-- </a> -->
 						<!-- <DropdownMenu.Separator /> --> 
-						<a href="/farm" class={navItem}>
+						<a href="/farm">
 							<DropdownMenu.Item>
-								<DropdownMenu.Label>Farms</DropdownMenu.Label>
+								<PercentCircle class="h-5 w-5" />
+								<DropdownMenu.Label>Staking</DropdownMenu.Label>
 							</DropdownMenu.Item>
 						</a>
-						<DropdownMenu.Separator />
-						<a target="_blank" href={chartLink} class={navItem}>
+						<!-- <DropdownMenu.Separator /> -->
+						<a target="_blank" href="https://dexscreener.com/pulsechain/0x9961c2652b301c4a25256db05316d2be11cebab1">
 							<DropdownMenu.Item>
-								<DropdownMenu.Label>Chart</DropdownMenu.Label>
+								<LineChart class="h-5 w-5" />
+								<DropdownMenu.Label>Price Chart</DropdownMenu.Label>
 							</DropdownMenu.Item>
 						</a>
 						<!-- <DropdownMenu.Separator />
@@ -73,32 +63,34 @@
 				<!-- socials -->
 				<DropdownMenu.Root>
 					<DropdownMenu.Trigger asChild let:builder>
-						<Button variant="link" class={navItem} builders={[builder]}>Socials</Button>
+						<Button variant="link" builders={[builder]}>Social Media</Button>
 					</DropdownMenu.Trigger>
 					<DropdownMenu.Content class="w-auto">
-						<a target="_blank" href="https://t.me/plsLEAN" class={navItem}>
+						<a target="_blank" href="https://t.me/plsLEAN">
 							<DropdownMenu.Item>
+								<Send class="h-5 w-5" />
 								<DropdownMenu.Label>Telegram</DropdownMenu.Label>
 							</DropdownMenu.Item>
 						</a>
-						<DropdownMenu.Separator />
-						<a href="http://x.com/pls_lean" class={navItem}>
+						<!-- <DropdownMenu.Separator /> -->
+						<a href="http://x.com/pls_lean">
 							<DropdownMenu.Item>
+								<Twitter class="h-5 w-5" />
 								<DropdownMenu.Label>Twitter</DropdownMenu.Label>
 							</DropdownMenu.Item>
 						</a>
-						<DropdownMenu.Separator />
-						<a href="https://discord.gg/NRg34Rawc6" class={navItem}>
+						<!-- <DropdownMenu.Separator /> -->
+						<!-- <a href="https://discord.gg/NRg34Rawc6" class={navItem}>
 							<DropdownMenu.Item>
 								<DropdownMenu.Label>Discord</DropdownMenu.Label>
 							</DropdownMenu.Item>
-						</a>
+						</a> -->
 						
 					</DropdownMenu.Content>
 				</DropdownMenu.Root>
 			</nav>
 		</div>
-		<NavBarSheet />
+		<NavBarMenuSmall />
 		<div class="flex flex-1 items-center justify-between space-x-2 sm:space-x-4 md:justify-end">
 			<div class="w-full flex-1 md:w-auto md:flex-none" data-svelte-h="svelte-1eg3ung" />
 			<nav class="flex items-center space-x-1">
