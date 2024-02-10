@@ -28,11 +28,7 @@
 						<Button variant="link" builders={[builder]}>Explore</Button>
 					</DropdownMenu.Trigger>
 					<DropdownMenu.Content class="w-auto">
-						<!-- <a href="/home" class={navItem}>
-							 <DropdownMenu.Item>
-								<DropdownMenu.Label>Home</DropdownMenu.Label>
-							</DropdownMenu.Item> -->
-						<!-- </a> -->
+
 						<!-- <DropdownMenu.Separator /> --> 
 						<a href="/farm">
 							<DropdownMenu.Item>
@@ -47,18 +43,8 @@
 								<DropdownMenu.Label>Price Chart</DropdownMenu.Label>
 							</DropdownMenu.Item>
 						</a>
-						<!-- <DropdownMenu.Separator />
-						<a href="/papar" class={navItem}>
-							<DropdownMenu.Item>
-								<DropdownMenu.Label>📃Paper</DropdownMenu.Label>
-							</DropdownMenu.Item>
-						</a> -->
-						<!-- <DropdownMenu.Separator />
-						<a href="https://github.com/AnEntrypoint" class={navItem}>
-							<DropdownMenu.Item>
-								<DropdownMenu.Label>🛰️Github</DropdownMenu.Label>
-							</DropdownMenu.Item>
-						</a> -->
+						<!-- <DropdownMenu.Separator /> -->
+
 					</DropdownMenu.Content>
 				</DropdownMenu.Root>
 				<!-- socials -->
