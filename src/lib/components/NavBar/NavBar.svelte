@@ -16,7 +16,7 @@
 
 
 <header class="supports-[backdrop-filter]:bg-background/60 sticky top-0 z-40 w-full border-b bg-background/60 shadow-sm backdrop-blur">
-	<div class="container flex h-14 items-center">
+	<div class="px-2 flex h-14 items-center">
 		<div class="mr-4 hidden md:flex">
 			<nav class="relative py-2 flex items-center space-x-2 text-sm font-medium">
 				<a href="/" class="mr-3 flex items-center space-x-2">
