@@ -85,7 +85,7 @@
 		</div>
 		<NavBarMenuSmall />
 		<div class="flex flex-1 items-center justify-between space-x-2 sm:space-x-4 md:justify-end">
-			<div class="w-full flex-1 md:w-auto md:flex-none" data-svelte-h="svelte-1eg3ung" />
+			<div class="w-full flex-1 md:w-auto md:flex-none" />
 			<nav class="flex items-center space-x-1">
 				<WalletConnect />
 				<!-- <LightSwitch /> -->

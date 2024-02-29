@@ -3,6 +3,7 @@
 		'font-bebas-neue uppercase text-6xl sm:text-7xl font-black flex flex-col leading-none';
 
 	import { ArrowRight } from 'radix-icons-svelte'
+	import vegeta from '$lib/images/vegeta.png'
 </script>
 
 <div class=" mx-auto flex relative">
@@ -41,7 +42,7 @@
 	<div class="hidden sm:block sm:w-2/3 lg:w-4/5 relative">
 		<img
 			class="h-auto w-full rounded-full object-cover object-center p-20"
-			src="https://cdn.discordapp.com/attachments/1094571932088807547/1177311825176580156/image.png"
+			src={vegeta}
 			alt="steeve"
 		/>
 		<!-- <Pic /> -->

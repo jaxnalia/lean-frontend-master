@@ -21,6 +21,14 @@
 	import { Separator } from "$lib/components/ui/separator";
 	import { ethers } from 'ethers';
 	import { BigNumber } from 'bignumber.js';
+	import {
+	Plus,
+	Minus
+  } from "lucide-svelte";
+  	import leancircle from "$lib/images/leancircle.png";
+	import pls from "$lib/images/pls.png";
+	import inc from "$lib/images/inc.png";
+	import rob from "$lib/images/rob.png";
 
 	let earnedTokens;
 	let stakedLean;
@@ -44,7 +52,7 @@
 		// emissionsPerToken = (tokens * 86400);
 		// let BN = new BigNumber(tokens);
 		// emissions = BN.times(86400);
-		emissionsPerDay = (tokens * 86400);
+		emissionsPerDay = (Number(tokens) * 86400);
 	})
 
 	const glass =
@@ -65,11 +73,12 @@
 			>Farms</span
 		>Stake LP Tokens to earn 💜
 	</h1>
-	<div class="h-10 md:h-20" />
-	<Tabs.Root value="earn" class="w-96 mb-10">
+	<div class="h-10 h-10" />
+	<Tabs.Root value="pools" class="w-96 mb-10">
 		<Tabs.List class="grid w-full grid-cols-2 ">
+			<Tabs.Trigger value="pools">Pools</Tabs.Trigger>
 			<Tabs.Trigger value="earn">Earn LEAN 💜</Tabs.Trigger>
-			<Tabs.Trigger value="null">Pools</Tabs.Trigger>
+			
 		</Tabs.List>
 		<Tabs.Content value="earn">
 			<Card.Root class="backdrop-blur w-96">
@@ -188,86 +197,99 @@
 				</Card.Footer>
 			</Card.Root>
 		</Tabs.Content>
-		<Tabs.Content value="sip">
-			<Card.Root class="">
+		<Tabs.Content value="pools"> 
+			<Card.Root class="backdrop-blur w-96">
 				<Card.Header class="p-5">
-					<h1 class="text-3xl font-bold">SIP 🚰</h1>
-					<Card.Title>some <code>LEAN|WPLS LP</code></Card.Title>
+					<h1 class="text-3xl font-bold">Pools</h1>
+					<Card.Title><code>Stake and earn PURP</code></Card.Title>
 				</Card.Header>
-				<Card.Content>
-					<Card.Description>
-						
-						<div class="flex flex-row">
-							<div class="flex justify-center flex-col">
-								<p class="px-2">LEAN Earned:<br />{earnedTokens}</p>
-								<p class="px-2">LEAN/WPLS LP Staked:<br />{stakedLean}</p>
-								<p class="px-2">LEAN Balance:<br />{leanBalance}</p>
-								<p class="px-2">LP Balance:<br />{lpBalance}</p>
-								<!-- <p class="px-2">50000000</p> total -->
-								<!-- <Progress value={earnedTokens} max={50000000} /> -->
-								<!-- <div style="justify-content:space-between;" class="flex">
-									<p>0</p>
-									<p>100,000,000</p>
-								</div> -->
+				<Card.Content class="py-0 text-center">
+					<div class="flex justify-between mb-2">
+						<div class="bg-gradient-to-t from-white/5 to-white/15 rounded-sm py-3 px-2 w-full text-right px-3">
+
+							<div style="transform: translate(0, 10px)">
 								
+								<img style="position: absolute; transform: translate(0px, 0px);" src={leancircle} alt="LEAN" width="48">
+								<img style="position: absolute; transform: translate(0px, 0px);" src={pls} alt="WPLS" width="20">
 							</div>
+								
+								<p>Stake <strong>LEAN-WPLS</strong> Earn PURP</p>
+							
+							<Button class="p-2"><Plus /></Button>
+							<Button class="p-2"><Minus /></Button>
 						</div>
-					</Card.Description>
+						
+					</div>
+
+					<div class="flex justify-between mb-2">
+						<div class="bg-gradient-to-t from-white/5 to-white/15 rounded-sm py-3 px-2 w-full text-right px-3">
+
+							<div style="transform: translate(0, 10px)">
+								
+								<img style="position: absolute; transform: translate(0px, 0px);" src={leancircle} alt="LEAN" width="48">
+								<img style="position: absolute; transform: translate(0px, 0px);" src={inc} alt="INC" width="20">
+							</div>
+								
+								<p>Stake <strong>LEAN-INC</strong> Earn PURP</p>
+							
+							<Button class="p-2"><Plus /></Button>
+							<Button class="p-2"><Minus /></Button>
+						</div>
+						
+					</div>
+
+					<div class="flex justify-between mb-2">
+						<div class="bg-gradient-to-t from-white/5 to-white/15 rounded-sm py-3 px-2 w-full text-right px-3">
+
+							<div style="transform: translate(0, 10px)">
+								
+								<img style="position: absolute; transform: translate(0px, 0px);" src={leancircle} alt="LEAN" width="48">
+								<img style="position: absolute; transform: translate(0px, 0px);" src={rob} alt="ROB" width="20">
+							</div>
+								
+								<p>Stake <strong>LEAN-ROB</strong> Earn PURP</p>
+							
+							<Button class="p-2"><Plus /></Button>
+							<Button class="p-2"><Minus /></Button>
+						</div>
+						
+					</div>
+					
 				</Card.Content>
 
-				<div style="text-decoration: underline;" class="px-6">
-					<a
+				<div style="justify-content: space-between;" class="px-6 py-2 flex flex-row">
+					<span style="text-decoration: underline;" class="flex flex pb-3">
+						<div></div>
+						<a
+							style="font-size: 12px;"
+							href="https://bafybeicjuszlj6w3gg5mfszvo7z6ux4iaafhw62vfyfw27nm65bexodov4.ipfs.dweb.link/#/address/0x0EDD0cFEE6d9987C446c301E4f1960d29F704Eb8"
+							target="_blank">Audit
+						</a>
+							<ExternalLink size="10" />
+							<!-- <Separator orientation="vertical" class="" /> -->
+					</span>
+					<span style="text-decoration: underline;" class="flex flex pb-3">
+							<a
+							style="font-size: 12px;"
+							href="https://bafybeihiwe3inbfru7h6pesaj4siacbyx7t6o5qp3vwdz25n3p6ewlbnie.ipfs.dweb.link/#/add/V2/PLS/0x1c9b5e57AA89f8b58CA28249E347A6C933726449"
+							target="_blank">Add Liquidity
+						</a>
+							<ExternalLink size="10" />
+					</span>
+					<span style="text-decoration: underline;" class="flex flex pb-3">
+						<a
 						style="font-size: 12px;"
-						href="https://scan.pulsechain.com/address/0x0EDD0cFEE6d9987C446c301E4f1960d29F704Eb8"
-						target="_blank">View on Explorers</a
-					>
+						href="https://bafybeihiwe3inbfru7h6pesaj4siacbyx7t6o5qp3vwdz25n3p6ewlbnie.ipfs.dweb.link/#/?outputCurrency=0x1c9b5e57AA89f8b58CA28249E347A6C933726449"
+						target="_blank">Trade LEAN
+					</a>
+						<ExternalLink size="10" />
+					</span>
 				</div>
 
 				<Card.Footer class="p-0 flex justify-center">
-					<ApproveTokens />
-					<ClaimRewards />
+					<!-- <ApproveTokens />
+					<ClaimRewards /> -->
 
-					<AlertDialog.Root>
-						<AlertDialog.Trigger asChild let:builder>
-							<Button class="hover:bg-gray-700" builders={[builder]}>Stake</Button>
-						</AlertDialog.Trigger>
-						<AlertDialog.Content>
-							<AlertDialog.Header>
-								<AlertDialog.Title>Stake LEAN/WPLS LP 💜</AlertDialog.Title>
-								<!-- <AlertDialog.Description>
-										How many tokens do you want to stake?
-									</AlertDialog.Description> -->
-							</AlertDialog.Header>
-
-							<AlertDialog.Footer>
-								<StakeTokens />
-								<!-- <Input type="email" placeholder="Amount" />
-									<AlertDialog.Action>Claim</AlertDialog.Action>
-									<AlertDialog.Cancel>Cancel</AlertDialog.Cancel> -->
-							</AlertDialog.Footer>
-						</AlertDialog.Content>
-					</AlertDialog.Root>
-
-					<AlertDialog.Root>
-						<AlertDialog.Trigger asChild let:builder>
-							<Button class="hover:bg-gray-700" builders={[builder]}>Withdraw</Button>
-						</AlertDialog.Trigger>
-						<AlertDialog.Content>
-							<AlertDialog.Header>
-								<AlertDialog.Title>Withdraw LEAN/WPLS LP 💜</AlertDialog.Title>
-								<!-- <AlertDialog.Description>
-                                  How many tokens do you want to stake?
-                                </AlertDialog.Description> -->
-							</AlertDialog.Header>
-
-							<AlertDialog.Footer>
-								<WithdrawTokens />
-								<!-- <Input type="email" placeholder="Amount" />
-                                <AlertDialog.Action>Claim</AlertDialog.Action>
-                                <AlertDialog.Cancel>Cancel</AlertDialog.Cancel> -->
-							</AlertDialog.Footer>
-						</AlertDialog.Content>
-					</AlertDialog.Root>
 					
 				</Card.Footer>
 			</Card.Root>
