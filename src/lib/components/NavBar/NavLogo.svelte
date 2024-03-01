@@ -1,6 +1,6 @@
 <script>
-	import lean_cup from '../../images/logo.png';
+	import rob from '$lib/images/rob.png';
 </script>
 <nav class="py-2">
-	<img src={lean_cup} alt="" class="w-8 md:hidden" />
+	<img src={rob} alt="" class="w-12 md:hidden" />
 </nav>

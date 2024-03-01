@@ -49,14 +49,9 @@
 		lpBalance = tokens;
 	});
 	tokenEmissionPerSec.subscribe((tokens) => {
-		// emissionsPerToken = (tokens * 86400);
-		// let BN = new BigNumber(tokens);
-		// emissions = BN.times(86400);
 		emissionsPerDay = (Number(tokens) * 86400);
 	})
 
-	const glass =
-		'relative flex flex-col items-center backdrop-blur';
 
 	const title =
 		'font-bebas-neue uppercase text-4xl font-black flex flex-col container leading-none';
@@ -64,27 +59,26 @@
 	const LinkIcon = '<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 2C2.44772 2 2 2.44772 2 3V12C2 12.5523 2.44772 13 3 13H12C12.5523 13 13 12.5523 13 12V8.5C13 8.22386 12.7761 8 12.5 8C12.2239 8 12 8.22386 12 8.5V12H3V3L6.5 3C6.77614 3 7 2.77614 7 2.5C7 2.22386 6.77614 2 6.5 2H3ZM12.8536 2.14645C12.9015 2.19439 12.9377 2.24964 12.9621 2.30861C12.9861 2.36669 12.9996 2.4303 13 2.497L13 2.5V2.50049V5.5C13 5.77614 12.7761 6 12.5 6C12.2239 6 12 5.77614 12 5.5V3.70711L6.85355 8.85355C6.65829 9.04882 6.34171 9.04882 6.14645 8.85355C5.95118 8.65829 5.95118 8.34171 6.14645 8.14645L11.2929 3H9.5C9.22386 3 9 2.77614 9 2.5C9 2.22386 9.22386 2 9.5 2H12.4999H12.5C12.5678 2 12.6324 2.01349 12.6914 2.03794C12.7504 2.06234 12.8056 2.09851 12.8536 2.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>';
 </script>
 <GetContractData />
-<div style="background-color: --background;" class={glass}>
+<div style="background-color: --background;" class='relative flex flex-col items-center'>
 	<div class="h-10" />
 	<h1 class={title}>
 		<span
-			class="text-6xl"
-			style="color: transparent; background-clip: text; -webkit-background-clip: text; background-image: url('https://media1.giphy.com/media/toYOS2FIQKGH1NJ060/giphy.gif');"
+			class="text-6xl text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-amber-400"
 			>Farms</span
-		>Stake LP Tokens to earn 💜
+		>Stake ROB & earn yield.
 	</h1>
 	<div class="h-10 h-10" />
 	<Tabs.Root value="pools" class="w-96 mb-10">
 		<Tabs.List class="grid w-full grid-cols-2 ">
 			<Tabs.Trigger value="pools">Pools</Tabs.Trigger>
-			<Tabs.Trigger value="earn">Earn LEAN 💜</Tabs.Trigger>
+			<Tabs.Trigger value="earn">Earn ROB 🥇</Tabs.Trigger>
 			
 		</Tabs.List>
 		<Tabs.Content value="earn">
 			<Card.Root class="backdrop-blur w-96">
 				<Card.Header class="p-5">
-					<h1 class="text-3xl font-bold">STAKE</h1>
-					<Card.Title><code>LEAN/WPLS LP to earn LEAN 💜</code></Card.Title>
+					<h1 class="text-3xl font-bold">Stake</h1>
+					<Card.Title><code>ROB/WPLS LP to earn ROB 🥇</code></Card.Title>
 				</Card.Header>
 				<Card.Content>
 					<Card.Description>
@@ -98,9 +92,9 @@
 						
 						<div class="flex flex-row">
 							<div class="flex justify-center flex-col font-dm text-sm font-medium">
-								<p class="px-2">LEAN Earned:<br />{earnedTokens}</p>
-								<p class="px-2">LEAN/WPLS LP Staked:<br />{stakedLean}</p>
-								<p class="px-2">LEAN Balance:<br />{leanBalance}</p>
+								<p class="px-2">ROB Earned:<br />{earnedTokens}</p>
+								<p class="px-2">ROB/WPLS LP Staked:<br />{stakedLean}</p>
+								<p class="px-2">ROB Balance:<br />{leanBalance}</p>
 								<p class="px-2">LP Balance:<br />{lpBalance}</p>
 								<!-- <p class="px-2">50000000</p> total -->
 								<!-- <Progress value={earnedTokens} max={50000000} /> -->
@@ -108,7 +102,7 @@
 									<p>0</p>
 									<p>100,000,000</p>
 								</div> -->
-								<p class="px-2">Daily Distribution:<br />0.0 LEAN</p>
+								<p class="px-2">Daily Distribution:<br />0.0 ROB</p>
 							</div>
 							<div class="flex flex-col font-dm text-sm font-medium">
 								<p class="px-2">Finished</p>
@@ -121,27 +115,27 @@
 						<div></div>
 						<a
 							style="font-size: 12px;"
-							href="https://bafybeicjuszlj6w3gg5mfszvo7z6ux4iaafhw62vfyfw27nm65bexodov4.ipfs.dweb.link/#/address/0x0EDD0cFEE6d9987C446c301E4f1960d29F704Eb8"
+							href="https://bafybeicjuszlj6w3gg5mfszvo7z6ux4iaafhw62vfyfw27nm65bexodov4.ipfs.dweb.link/#/address/0x1c2766F5949A4aA5d4cf0439067051135ffc1b28"
 							target="_blank">View Contract
 						</a>
-							<ExternalLink size="10" />
+							<ExternalLink size={10} />
 							<!-- <Separator orientation="vertical" class="" /> -->
 					</span>
 					<span style="text-decoration: underline;" class="flex flex pb-3">
 							<a
 							style="font-size: 12px;"
-							href="https://bafybeihiwe3inbfru7h6pesaj4siacbyx7t6o5qp3vwdz25n3p6ewlbnie.ipfs.dweb.link/#/add/V2/PLS/0x1c9b5e57AA89f8b58CA28249E347A6C933726449"
+							href="https://bafybeihiwe3inbfru7h6pesaj4siacbyx7t6o5qp3vwdz25n3p6ewlbnie.ipfs.dweb.link/#/add/V2/PLS/0x1c2766F5949A4aA5d4cf0439067051135ffc1b28"
 							target="_blank">Add Liquidity
 						</a>
-							<ExternalLink size="10" />
+							<ExternalLink size={10} />
 					</span>
 					<span style="text-decoration: underline;" class="flex flex pb-3">
 						<a
 						style="font-size: 12px;"
-						href="https://bafybeihiwe3inbfru7h6pesaj4siacbyx7t6o5qp3vwdz25n3p6ewlbnie.ipfs.dweb.link/#/?outputCurrency=0x1c9b5e57AA89f8b58CA28249E347A6C933726449"
-						target="_blank">Trade LEAN
+						href="https://bafybeihiwe3inbfru7h6pesaj4siacbyx7t6o5qp3vwdz25n3p6ewlbnie.ipfs.dweb.link/#/?outputCurrency=0x1c2766F5949A4aA5d4cf0439067051135ffc1b28"
+						target="_blank">Trade ROB
 					</a>
-						<ExternalLink size="10" />
+						<ExternalLink size={10} />
 					</span>
 				</div>
 				
@@ -158,7 +152,7 @@
 						</AlertDialog.Trigger>
 						<AlertDialog.Content>
 							<AlertDialog.Header>
-								<AlertDialog.Title>Stake LEAN/WPLS LP 💜</AlertDialog.Title>
+								<AlertDialog.Title>Stake ROB/WPLS LP 🥇</AlertDialog.Title>
 								<!-- <AlertDialog.Description>
 										How many tokens do you want to stake?
 									</AlertDialog.Description> -->
@@ -179,7 +173,7 @@
 						</AlertDialog.Trigger>
 						<AlertDialog.Content>
 							<AlertDialog.Header>
-								<AlertDialog.Title>Withdraw LEAN/WPLS LP 💜</AlertDialog.Title>
+								<AlertDialog.Title>Withdraw ROB/WPLS LP 🥇</AlertDialog.Title>
 								<!-- <AlertDialog.Description>
 																	How many tokens do you want to stake?
 																</AlertDialog.Description> -->
@@ -201,7 +195,7 @@
 			<Card.Root class="backdrop-blur w-96">
 				<Card.Header class="p-5">
 					<h1 class="text-3xl font-bold">Pools</h1>
-					<Card.Title><code>Stake and earn PURP</code></Card.Title>
+					<Card.Title><code>Stake and earn ????</code></Card.Title>
 				</Card.Header>
 				<Card.Content class="py-0 text-center">
 					<div class="flex justify-between mb-2">
@@ -209,11 +203,11 @@
 
 							<div style="transform: translate(0, 10px)">
 								
-								<img style="position: absolute; transform: translate(0px, 0px);" src={leancircle} alt="LEAN" width="48">
+								<img style="position: absolute; transform: translate(0px, 0px);" src={rob} alt="ROB" width="48">
 								<img style="position: absolute; transform: translate(0px, 0px);" src={pls} alt="WPLS" width="20">
 							</div>
 								
-								<p>Stake <strong>LEAN-WPLS</strong> Earn PURP</p>
+								<p>Stake <strong>ROB-WPLS</strong> Earn ????</p>
 							
 							<Button class="p-2"><Plus /></Button>
 							<Button class="p-2"><Minus /></Button>
@@ -226,11 +220,11 @@
 
 							<div style="transform: translate(0, 10px)">
 								
-								<img style="position: absolute; transform: translate(0px, 0px);" src={leancircle} alt="LEAN" width="48">
+								<img style="position: absolute; transform: translate(0px, 0px);" src={rob} alt="ROB" width="48">
 								<img style="position: absolute; transform: translate(0px, 0px);" src={inc} alt="INC" width="20">
 							</div>
 								
-								<p>Stake <strong>LEAN-INC</strong> Earn PURP</p>
+								<p>Stake <strong>ROB-INC</strong> Earn ????</p>
 							
 							<Button class="p-2"><Plus /></Button>
 							<Button class="p-2"><Minus /></Button>
@@ -243,11 +237,11 @@
 
 							<div style="transform: translate(0, 10px)">
 								
-								<img style="position: absolute; transform: translate(0px, 0px);" src={leancircle} alt="LEAN" width="48">
-								<img style="position: absolute; transform: translate(0px, 0px);" src={rob} alt="ROB" width="20">
+								<img style="position: absolute; transform: translate(0px, 0px);" src={rob} alt="ROB" width="48">
+								<img style="position: absolute; transform: translate(0px, 0px);" src={leancircle} alt="LEAN" width="20">
 							</div>
 								
-								<p>Stake <strong>LEAN-ROB</strong> Earn PURP</p>
+								<p>Stake <strong>ROB-LEAN</strong> Earn ????</p>
 							
 							<Button class="p-2"><Plus /></Button>
 							<Button class="p-2"><Minus /></Button>
@@ -262,27 +256,27 @@
 						<div></div>
 						<a
 							style="font-size: 12px;"
-							href="https://bafybeicjuszlj6w3gg5mfszvo7z6ux4iaafhw62vfyfw27nm65bexodov4.ipfs.dweb.link/#/address/0x0EDD0cFEE6d9987C446c301E4f1960d29F704Eb8"
-							target="_blank">Audit
+							href="https://bafybeicjuszlj6w3gg5mfszvo7z6ux4iaafhw62vfyfw27nm65bexodov4.ipfs.dweb.link/#/address/0x1c2766F5949A4aA5d4cf0439067051135ffc1b28"
+							target="_blank">View Contract
 						</a>
-							<ExternalLink size="10" />
+							<ExternalLink size={10} />
 							<!-- <Separator orientation="vertical" class="" /> -->
 					</span>
 					<span style="text-decoration: underline;" class="flex flex pb-3">
 							<a
 							style="font-size: 12px;"
-							href="https://bafybeihiwe3inbfru7h6pesaj4siacbyx7t6o5qp3vwdz25n3p6ewlbnie.ipfs.dweb.link/#/add/V2/PLS/0x1c9b5e57AA89f8b58CA28249E347A6C933726449"
+							href="https://bafybeihiwe3inbfru7h6pesaj4siacbyx7t6o5qp3vwdz25n3p6ewlbnie.ipfs.dweb.link/#/add/V2/PLS/0x1c2766F5949A4aA5d4cf0439067051135ffc1b28"
 							target="_blank">Add Liquidity
 						</a>
-							<ExternalLink size="10" />
+							<ExternalLink size={10} />
 					</span>
 					<span style="text-decoration: underline;" class="flex flex pb-3">
 						<a
 						style="font-size: 12px;"
-						href="https://bafybeihiwe3inbfru7h6pesaj4siacbyx7t6o5qp3vwdz25n3p6ewlbnie.ipfs.dweb.link/#/?outputCurrency=0x1c9b5e57AA89f8b58CA28249E347A6C933726449"
-						target="_blank">Trade LEAN
+						href="https://bafybeihiwe3inbfru7h6pesaj4siacbyx7t6o5qp3vwdz25n3p6ewlbnie.ipfs.dweb.link/#/?outputCurrency=0x1c2766F5949A4aA5d4cf0439067051135ffc1b28"
+						target="_blank">Trade ROB
 					</a>
-						<ExternalLink size="10" />
+						<ExternalLink size={10} />
 					</span>
 				</div>
 

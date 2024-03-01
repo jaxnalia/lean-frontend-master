@@ -37,7 +37,7 @@ const modal = createWeb3Modal({
     themeVariables: {
     // '--w3m-color-mix': '#00BB7F',
     // '--w3m-color-mix-strength': 10
-      '--w3m-accent': 'blueviolet',
+      '--w3m-accent': '#BEA416',
     },
     
 })

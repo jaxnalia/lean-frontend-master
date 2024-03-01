@@ -3,7 +3,7 @@
 	import * as DropdownMenu from '$lib/components/ui/dropdown-menu';
 	import NavBarMenuSmall from './NavBarMenuSmall.svelte';
 	import WalletConnect from '../../WalletConnect.svelte';
-	import lean_cup from '../../images/logo.png';
+	import rob from "$lib/images/rob.png";
 	import {
 	LineChart,
 	Send,
@@ -20,7 +20,7 @@
 		<div class="mr-4 hidden md:flex">
 			<nav class="relative py-2 flex items-center space-x-2 text-sm font-medium">
 				<a href="/" class="mr-3 flex items-center space-x-2">
-					<img src={lean_cup} alt="LEAN" class="w-8" />
+					<img src={rob} alt="ROB" class="w-12" />
 				</a>
 				<!-- home, charts -->
 				<DropdownMenu.Root>

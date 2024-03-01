@@ -1,48 +1,47 @@
 <script>
 	import { TwitterLogo, DiscordLogo, PaperPlane, GithubLogo } from 'radix-icons-svelte';
-	import lean_cup from '../../images/logo.png';
+	import rob from '../../images/rob.png';
 	const footStyle =
-		'supports-[backdrop-filter]:bg-background/60 sticky top-0 z-40 w-full px-3 pt-4 lg:px-9 bg-background/95 backdrop-blur';
+		'sticky top-0 z-40 w-full px-3 pt-4 lg:px-9';
 	const link = {
-		tele: 'https://t.me/plsLEAN',
-		cord: 'https://discord.gg/NRg34Rawc6',
-		xapp: 'https://x.com/pls_lean',
-		chart: 'https://dexscreener.com/pulsechain/0x9961c2652b301c4a25256db05316d2be11cebab1',
-		swap: 'https://bafybeihiwe3inbfru7h6pesaj4siacbyx7t6o5qp3vwdz25n3p6ewlbnie.ipfs.dweb.link/#/?outputCurrency=0x1c9b5e57AA89f8b58CA28249E347A6C933726449',
-		explorer: 'https://bafybeicjuszlj6w3gg5mfszvo7z6ux4iaafhw62vfyfw27nm65bexodov4.ipfs.dweb.link/#/address/0x1c9b5e57AA89f8b58CA28249E347A6C933726449',
-		git: 'https://github.com/LEAN-Token'
+		tele: '',
+		xapp: 'https://x.com/shaneheartwin',
+		chart: 'https://dexscreener.com/pulsechain/0x87791dd63ecfb326768630e7ae3a3497f295b656',
+		swap: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/?outputCurrency=0x1c2766F5949A4aA5d4cf0439067051135ffc1b28',
+		explorer: 'https://scan.dextop.pro/#/token/0x1c2766F5949A4aA5d4cf0439067051135ffc1b28?tab=contract',
+		git: ''
 	};
 	import { Github, Send, Twitter } from "lucide-svelte";
+
 </script>
+
 
 
 <footer class={footStyle}>
 	<div class="flex flex-col container items-center">
 		<a href="/" class="inline-flex items-center">
-			<img src={lean_cup} alt="Lean" class="h-10" />
+			<img src={rob} alt="ROB" class="h-10" />
 		</a>
 		<div class="flex flex-row gap-2 text-lg">
-			<a class="font-bold tracking-wide uppercase" target="_blank" href={link.swap}>buy on PulseX</a
+			<a class="font-bold tracking-wide uppercase drop-shadow" target="_blank" href={link.swap}>buy on PulseX</a
 			>
 			|
-			<a class="font-bold tracking-wide uppercase" target="_blank" href={link.explorer}>contract</a>
+			<a class="font-bold tracking-wide uppercase drop-shadow" target="_blank" href={link.explorer}>contract</a>
 		</div>
 		<span class="block text-sm text-center">
-			© 2024 
+			
 			<a
-				style="margin-right: -3px;"
-				href="https://leantoken.org/"
-				class="text-purple-600 hover:underline dark:text-violet-500"
+				style="color: #eab308;"
+				href="https://x.com/search?q=%24rob&src=typed_query&f=live"
+				class="hover:underline drop-shadow"
 			>
-				LEAN
-			</a>. Built by
-			<a
-				style="margin-right: -3px;"
-				href="https://x.com/bigjax_pls"
-				class="text-purple-600 hover:underline dark:text-violet-500"
-			>
-				BigJax
-			</a>.
+				$ROB
+			</a> | <a
+				style="color: #eab308;"
+				href="https://x.com/shaneheartwin"
+				class="hover:underline drop-shadow"
+			>@shaneheartwin
+			</a>
 		</span>
 		<div>
 			<div class="flex items-center gap-1 px-2">
