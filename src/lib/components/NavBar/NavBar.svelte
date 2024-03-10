@@ -81,7 +81,7 @@
 						
 					</DropdownMenu.Content>
 				</DropdownMenu.Root>
-				<a href="http://" target="_blank">
+				<a href="/" target="_blank">
 					<Button variant="link">Docs</Button>
 				</a>
 				
