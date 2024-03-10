@@ -72,11 +72,14 @@
 	</h1>
 	<div class="h-10 h-10" />
 	<Tabs.Root value="pools" class="w-96 sm:w-4/5 mb-10" style="max-width: 1000px;">
-		<Tabs.List class="grid w-full grid-cols-2" style="max-width: 400px;">
-			<Tabs.Trigger value="pools">Pools</Tabs.Trigger>
-			<Tabs.Trigger value="earn">Earn LEAN 💜</Tabs.Trigger>
-			
-		</Tabs.List>
+		<div class="flex justify-end">
+			<Tabs.List class="grid w-full grid-cols-2" style="max-width: 400px;">
+				<Tabs.Trigger value="pools">Pools</Tabs.Trigger>
+				<Tabs.Trigger value="earn">Earn LEAN 💜</Tabs.Trigger>
+				
+			</Tabs.List>
+		</div>
+		
 		<Tabs.Content value="earn">
 			<Card.Root class="backdrop-blur w-96 sm:w-auto">
 				<Card.Header class="p-5">
