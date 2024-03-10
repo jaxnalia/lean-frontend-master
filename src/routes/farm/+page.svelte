@@ -116,7 +116,7 @@
 						</div>
 					</Card.Description>
 				</Card.Content>
-				<div style="justify-content: space-between;" class="px-6 flex flex-row">
+				<div style="justify-content: space-around;" class="px-6 flex flex-row">
 					<span style="text-decoration: underline;" class="flex flex pb-3">
 						<div></div>
 						<a
@@ -273,7 +273,7 @@
 					
 				</Card.Content>
 
-				<div style="justify-content: space-between;" class="px-6 py-2 flex flex-row">
+				<div style="justify-content: space-around;" class="px-6 py-2 flex flex-row">
 					<span style="text-decoration: underline;" class="flex flex pb-3">
 						<div></div>
 						<a
