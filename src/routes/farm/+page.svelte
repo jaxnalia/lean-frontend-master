@@ -83,8 +83,8 @@
 		<Tabs.Content value="earn">
 			<Card.Root class="backdrop-blur w-96 sm:w-auto">
 				<Card.Header class="p-5">
-					<h1 class="text-3xl font-bold">STAKE</h1>
-					<Card.Title><code>LEAN/WPLS LP to earn LEAN 💜</code></Card.Title>
+					<h1 class="text-3xl font-bold">Earn LEAN 💜</h1>
+					<Card.Title>Stake <strong>LEAN-WPLS LP</strong> to earn <strong>LEAN</strong></Card.Title>
 				</Card.Header>
 				<Card.Content>
 					<Card.Description>
@@ -203,44 +203,47 @@
 					<h1 class="text-3xl font-bold">Pools</h1>
 					<Card.Title>Stake PulseX V2 liquidity and earn <strong>LIT</strong></Card.Title>
 				</Card.Header>
-				<Card.Content class="py-0 text-center">
+				<Card.Content class="p-5 py-0 text-center">
 					<div class="flex justify-between mb-2">
-						<div class="bg-gradient-to-t from-white/5 to-white/15 rounded-sm py-3 px-2 w-full text-right px-3">
+						<div class="relative bg-gradient-to-t from-white/5 to-white/15 rounded-sm py-3 px-2 w-full text-right px-3">
 
-							<div style="transform: translate(0, 10px)">
+							<div style="transform: translate(0, 8px)">
 								
 								<img style="position: absolute; transform: translate(0px, 0px);" src={lean} alt="LEAN" width="48">
 								<img style="position: absolute; transform: translate(0px, 0px);" src={plsx} alt="PLSX" width="20">
 							</div>
 								
-								<p>Stake <strong>LEAN-PLSX</strong> Earn <strong>LIT</strong></p>
-
-							<div class="flex justify-end">
 								
-								<span class="text-xs p-1" style="line-height: 2.2;"><strong>LIT</strong> earned: </span>
-								<Button variant="outline" class="p-4">247420.0</Button>
-								<Button class="p-2 ml-1"><Minus /></Button>
-								<Button class="p-2 ml-1"><Plus /></Button>
-							</div>
+							<span class="absolute sm:hidden" style="left:0; transform: translate(72px, 0px); color: #beee11;"><strong class="text-md">0.00</strong>%</span>
+							<p class="sm:text-left sm:ml-16">Stake <strong>LEAN-PLSX</strong> Earn <strong>LIT</strong></p>
+							
+								<div class="flex justify-end">
+									<span class="hidden sm:block text-xs p-1 mr-2" style="line-height: 2.2;">APR <span style="color: #beee11;"><strong class="text-lg">0.00</strong>%</span></span>
+									<span class="text-xs p-1" style="line-height: 2.2;"><strong>LIT</strong> earned </span>
+									<Button variant="outline" class="p-4">247420.0</Button>
+									<Button class="p-2 ml-1"><Minus /></Button>
+									<Button class="p-2 ml-1"><Plus /></Button>
+								</div>
 							
 						</div>
 						
 					</div>
 
 					<div class="flex justify-between mb-2">
-						<div class="bg-gradient-to-t from-white/5 to-white/15 rounded-sm py-3 px-2 w-full text-right px-3">
+						<div class="relative bg-gradient-to-t from-white/5 to-white/15 rounded-sm py-3 px-2 w-full text-right px-3">
 
-							<div style="transform: translate(0, 10px)">
+							<div style="transform: translate(0, 8px)">
 								
 								<img style="position: absolute; transform: translate(0px, 0px);" src={lit} alt="LIT" width="48">
 								<img style="position: absolute; transform: translate(0px, 0px);" src={plsx} alt="PLSX" width="20">
 							</div>
-								
-								<p>Stake <strong>LIT-PLSX</strong> Earn <strong>LIT</strong></p>
+
+								<span class="absolute sm:hidden" style="left:0; transform: translate(72px, 0px); color: #beee11;"><strong class="text-md">0.00</strong>%</span>
+								<p class="sm:text-left sm:ml-16">Stake <strong>LIT-PLSX</strong> Earn <strong>LIT</strong></p>
 							
 								<div class="flex justify-end">
-								
-									<span class="text-xs p-1" style="line-height: 2.2;"><strong>LIT</strong> earned: </span>
+									<span class="hidden sm:block text-xs p-1 mr-2" style="line-height: 2.2;">APR <span style="color: #beee11;"><strong class="text-lg">0.00</strong>%</span></span>
+									<span class="text-xs p-1" style="line-height: 2.2;"><strong>LIT</strong> earned </span>
 									<Button variant="outline" class="p-4">0.0</Button>
 									<Button class="p-2 ml-1"><Minus /></Button>
 									<Button class="p-2 ml-1"><Plus /></Button>
@@ -250,19 +253,20 @@
 					</div>
 
 					<div class="flex justify-between mb-2">
-						<div class="bg-gradient-to-t from-white/5 to-white/15 rounded-sm py-3 px-2 w-full text-right px-3">
+						<div class="relative bg-gradient-to-t from-white/5 to-white/15 rounded-sm py-3 px-2 w-full text-right px-3">
 
-							<div style="transform: translate(0, 10px)">
+							<div style="transform: translate(0, 8px)">
 								
 								<img style="position: absolute; transform: translate(0px, 0px);" src={lit} alt="LIT" width="48">
 								<img style="position: absolute; transform: translate(0px, 0px);" src={lean} alt="LEAN" width="20">
 							</div>
-								
-								<p>Stake <strong>LIT-LEAN</strong> Earn <strong>LIT</strong></p>
+
+								<span class="absolute sm:hidden" style="left:0; transform: translate(72px, 0px); color: #beee11;"><strong class="text-md">0.00</strong>%</span>
+								<p class="sm:text-left sm:ml-16">Stake <strong>LIT-LEAN</strong> Earn <strong>LIT</strong></p>
 							
 								<div class="flex justify-end">
-								
-									<span class="text-xs p-1" style="line-height: 2.2;"><strong>LIT</strong> earned: </span>
+									<span class="hidden sm:block text-xs p-1 mr-2" style="line-height: 2.2;">APR <span style="color: #beee11;"><strong class="text-lg">0.00</strong>%</span></span>
+									<span class="text-xs p-1" style="line-height: 2.2;"><strong>LIT</strong> earned </span>
 									<Button variant="outline" class="p-4">0.0</Button>
 									<Button class="p-2 ml-1"><Minus /></Button>
 									<Button class="p-2 ml-1"><Plus /></Button>
