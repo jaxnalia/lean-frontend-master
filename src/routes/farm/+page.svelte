@@ -30,7 +30,7 @@
 	import plsx from "$lib/images/plsx.png";
 	import inc from "$lib/images/inc.png";
 	import rob from "$lib/images/rob.png";
-	import lit from "$lib/images/lit.png";
+	import lit from "$lib/images/litbr.png";
 	import lean from "$lib/images/lean.png";
 
 	let earnedTokens;
@@ -124,7 +124,7 @@
 							href="https://bafybeicjuszlj6w3gg5mfszvo7z6ux4iaafhw62vfyfw27nm65bexodov4.ipfs.dweb.link/#/address/0x0EDD0cFEE6d9987C446c301E4f1960d29F704Eb8"
 							target="_blank">View Contract
 						</a>
-							<ExternalLink size="10" />
+							<ExternalLink size={10} />
 							<!-- <Separator orientation="vertical" class="" /> -->
 					</span>
 					<span style="text-decoration: underline;" class="flex flex pb-3">
@@ -133,7 +133,7 @@
 							href="https://bafybeihiwe3inbfru7h6pesaj4siacbyx7t6o5qp3vwdz25n3p6ewlbnie.ipfs.dweb.link/#/add/V2/PLS/0x1c9b5e57AA89f8b58CA28249E347A6C933726449"
 							target="_blank">Add Liquidity
 						</a>
-							<ExternalLink size="10" />
+							<ExternalLink size={10} />
 					</span>
 					<span style="text-decoration: underline;" class="flex flex pb-3">
 						<a
@@ -141,7 +141,7 @@
 						href="https://bafybeihiwe3inbfru7h6pesaj4siacbyx7t6o5qp3vwdz25n3p6ewlbnie.ipfs.dweb.link/#/?outputCurrency=0x1c9b5e57AA89f8b58CA28249E347A6C933726449"
 						target="_blank">Trade LEAN
 					</a>
-						<ExternalLink size="10" />
+						<ExternalLink size={10} />
 					</span>
 				</div>
 				
@@ -285,7 +285,7 @@
 							href="https://bafybeicjuszlj6w3gg5mfszvo7z6ux4iaafhw62vfyfw27nm65bexodov4.ipfs.dweb.link/#/address/0xbE7f4fFfDe4241cA25eb27616aE3974aF0a023fD"
 							target="_blank">View Contract
 						</a>
-							<ExternalLink size="10" />
+							<ExternalLink size={10} />
 							<!-- <Separator orientation="vertical" class="" /> -->
 					</span>
 					<span style="text-decoration: underline;" class="flex flex pb-3">
@@ -294,7 +294,7 @@
 							href="https://bafybeihiwe3inbfru7h6pesaj4siacbyx7t6o5qp3vwdz25n3p6ewlbnie.ipfs.dweb.link/#/add/V2/PLS/0x1c9b5e57AA89f8b58CA28249E347A6C933726449"
 							target="_blank">Add Liquidity
 						</a>
-							<ExternalLink size="10" />
+							<ExternalLink size={10} />
 					</span>
 					<span style="text-decoration: underline;" class="flex flex pb-3">
 						<a
@@ -302,7 +302,7 @@
 						href="https://bafybeihiwe3inbfru7h6pesaj4siacbyx7t6o5qp3vwdz25n3p6ewlbnie.ipfs.dweb.link/#/?outputCurrency=0x1c9b5e57AA89f8b58CA28249E347A6C933726449"
 						target="_blank">Trade LEAN
 					</a>
-						<ExternalLink size="10" />
+						<ExternalLink size={10} />
 					</span>
 				</div>
 
