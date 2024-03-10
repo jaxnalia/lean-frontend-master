@@ -27,8 +27,11 @@
   } from "lucide-svelte";
   	import leancircle from "$lib/images/leancircle.png";
 	import pls from "$lib/images/pls.png";
+	import plsx from "$lib/images/plsx.png";
 	import inc from "$lib/images/inc.png";
 	import rob from "$lib/images/rob.png";
+	import lit from "$lib/images/lit.png";
+	import lean from "$lib/images/lean.png";
 
 	let earnedTokens;
 	let stakedLean;
@@ -70,7 +73,7 @@
 		<span
 			class="text-6xl"
 			style="color: transparent; background-clip: text; -webkit-background-clip: text; background-image: url('https://media1.giphy.com/media/toYOS2FIQKGH1NJ060/giphy.gif');"
-			>Farms</span
+			>LEAN Farms</span
 		>Stake LP Tokens to earn 💜
 	</h1>
 	<div class="h-10 h-10" />
@@ -201,7 +204,7 @@
 			<Card.Root class="backdrop-blur w-96">
 				<Card.Header class="p-5">
 					<h1 class="text-3xl font-bold">Pools</h1>
-					<Card.Title><code>Stake and earn PURP</code></Card.Title>
+					<Card.Title>Stake PulseX V2 liquidity and earn <strong>LIT</strong></Card.Title>
 				</Card.Header>
 				<Card.Content class="py-0 text-center">
 					<div class="flex justify-between mb-2">
@@ -209,14 +212,20 @@
 
 							<div style="transform: translate(0, 10px)">
 								
-								<img style="position: absolute; transform: translate(0px, 0px);" src={leancircle} alt="LEAN" width="48">
-								<img style="position: absolute; transform: translate(0px, 0px);" src={pls} alt="WPLS" width="20">
+								<img style="position: absolute; transform: translate(0px, 0px);" src={lean} alt="LEAN" width="48">
+								<img style="position: absolute; transform: translate(0px, 0px);" src={plsx} alt="PLSX" width="20">
 							</div>
 								
-								<p>Stake <strong>LEAN-WPLS</strong> Earn PURP</p>
+								<p>Stake <strong>LEAN-PLSX</strong> Earn <strong>LIT</strong></p>
+
+							<div class="flex justify-end">
+								
+								<span class="text-xs p-1" style="line-height: 2.2;"><strong>LIT</strong> earned: </span>
+								<Button variant="outline" class="p-4">247420.0</Button>
+								<Button class="p-2 ml-1"><Minus /></Button>
+								<Button class="p-2 ml-1"><Plus /></Button>
+							</div>
 							
-							<Button class="p-2"><Plus /></Button>
-							<Button class="p-2"><Minus /></Button>
 						</div>
 						
 					</div>
@@ -226,14 +235,19 @@
 
 							<div style="transform: translate(0, 10px)">
 								
-								<img style="position: absolute; transform: translate(0px, 0px);" src={leancircle} alt="LEAN" width="48">
-								<img style="position: absolute; transform: translate(0px, 0px);" src={inc} alt="INC" width="20">
+								<img style="position: absolute; transform: translate(0px, 0px);" src={lit} alt="LIT" width="48">
+								<img style="position: absolute; transform: translate(0px, 0px);" src={plsx} alt="PLSX" width="20">
 							</div>
 								
-								<p>Stake <strong>LEAN-INC</strong> Earn PURP</p>
+								<p>Stake <strong>LIT-PLSX</strong> Earn <strong>LIT</strong></p>
 							
-							<Button class="p-2"><Plus /></Button>
-							<Button class="p-2"><Minus /></Button>
+								<div class="flex justify-end">
+								
+									<span class="text-xs p-1" style="line-height: 2.2;"><strong>LIT</strong> earned: </span>
+									<Button variant="outline" class="p-4">0.0</Button>
+									<Button class="p-2 ml-1"><Minus /></Button>
+									<Button class="p-2 ml-1"><Plus /></Button>
+								</div>
 						</div>
 						
 					</div>
@@ -243,14 +257,19 @@
 
 							<div style="transform: translate(0, 10px)">
 								
-								<img style="position: absolute; transform: translate(0px, 0px);" src={leancircle} alt="LEAN" width="48">
-								<img style="position: absolute; transform: translate(0px, 0px);" src={rob} alt="ROB" width="20">
+								<img style="position: absolute; transform: translate(0px, 0px);" src={lit} alt="LIT" width="48">
+								<img style="position: absolute; transform: translate(0px, 0px);" src={lean} alt="LEAN" width="20">
 							</div>
 								
-								<p>Stake <strong>LEAN-ROB</strong> Earn PURP</p>
+								<p>Stake <strong>LIT-LEAN</strong> Earn <strong>LIT</strong></p>
 							
-							<Button class="p-2"><Plus /></Button>
-							<Button class="p-2"><Minus /></Button>
+								<div class="flex justify-end">
+								
+									<span class="text-xs p-1" style="line-height: 2.2;"><strong>LIT</strong> earned: </span>
+									<Button variant="outline" class="p-4">0.0</Button>
+									<Button class="p-2 ml-1"><Minus /></Button>
+									<Button class="p-2 ml-1"><Plus /></Button>
+								</div>
 						</div>
 						
 					</div>
@@ -262,8 +281,8 @@
 						<div></div>
 						<a
 							style="font-size: 12px;"
-							href="https://bafybeicjuszlj6w3gg5mfszvo7z6ux4iaafhw62vfyfw27nm65bexodov4.ipfs.dweb.link/#/address/0x0EDD0cFEE6d9987C446c301E4f1960d29F704Eb8"
-							target="_blank">Audit
+							href="https://bafybeicjuszlj6w3gg5mfszvo7z6ux4iaafhw62vfyfw27nm65bexodov4.ipfs.dweb.link/#/address/0xbE7f4fFfDe4241cA25eb27616aE3974aF0a023fD"
+							target="_blank">View Contract
 						</a>
 							<ExternalLink size="10" />
 							<!-- <Separator orientation="vertical" class="" /> -->

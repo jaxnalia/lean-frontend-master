@@ -46,7 +46,7 @@
 					</svg>
 				</div>
 				<p class="ml-3 leading-5 text-gray-200">
-					100% Grass roots community token.
+					100% Grass roots hood token.
 				</p>
 			</li>
 			<li class="flex items-start lg:col-span-1">
@@ -82,7 +82,7 @@
 					</svg>
 				</div>
 				<p class="ml-3 leading-5 text-gray-200">
-					High APY staking without restrictions.
+					Trustless yield without restrictions.
 				</p>
 			</li>
 			<li class="flex items-start lg:col-span-1">

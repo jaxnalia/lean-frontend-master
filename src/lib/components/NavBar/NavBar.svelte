@@ -81,6 +81,10 @@
 						
 					</DropdownMenu.Content>
 				</DropdownMenu.Root>
+				<a href="http://" target="_blank">
+					<Button variant="link">Docs</Button>
+				</a>
+				
 			</nav>
 		</div>
 		<NavBarMenuSmall />
