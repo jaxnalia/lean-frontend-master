@@ -73,7 +73,7 @@
 	<div class="h-10 h-10" />
 	<Tabs.Root value="pools" class="w-96 sm:w-4/5 mb-10" style="max-width: 1000px;">
 		<div class="flex justify-end">
-			<Tabs.List class="grid w-full grid-cols-2" style="max-width: 400px;">
+			<Tabs.List class="grid w-full grid-cols-2 sm:max-w-xs">
 				<Tabs.Trigger value="pools">Pools</Tabs.Trigger>
 				<Tabs.Trigger value="earn">Earn LEAN 💜</Tabs.Trigger>
 				
