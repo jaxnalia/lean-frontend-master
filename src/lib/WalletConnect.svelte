@@ -4,7 +4,7 @@ import { pulsechain } from 'viem/chains'
 
     // 1. Define constants
 
-    const projectId = 'LEAN'
+    const projectId = '9a687a450c1fb28fa870b3feaa8f935d'
 
 // 2. Create wagmiConfig
 const metadata = {
