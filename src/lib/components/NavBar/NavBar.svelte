@@ -25,7 +25,7 @@
 				<!-- home, charts -->
 				<DropdownMenu.Root>
 					<DropdownMenu.Trigger asChild let:builder>
-						<Button variant="link" builders={[builder]}>Explore</Button>
+						<!-- <Button variant="link" builders={[builder]}>Explore</Button> -->
 					</DropdownMenu.Trigger>
 					<DropdownMenu.Content class="w-auto">
 
@@ -50,7 +50,7 @@
 				<!-- socials -->
 				<DropdownMenu.Root>
 					<DropdownMenu.Trigger asChild let:builder>
-						<Button variant="link" builders={[builder]}>Social Media</Button>
+						<!-- <Button variant="link" builders={[builder]}>Social Media</Button> -->
 					</DropdownMenu.Trigger>
 					<DropdownMenu.Content class="w-auto">
 						<a target="_blank" href="https://t.me/plsLEAN">
@@ -81,6 +81,12 @@
 						
 					</DropdownMenu.Content>
 				</DropdownMenu.Root>
+				<a href="/farm">
+					<Button variant="link">Farm</Button>
+				</a>
+				<a href="/bridge">
+					<Button variant="link">Bridge</Button>
+				</a>
 				<a href="/" target="_blank">
 					<Button variant="link">Docs</Button>
 				</a>

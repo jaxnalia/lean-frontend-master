@@ -12,6 +12,7 @@
 	Home,
 	Currency,
 	ScrollText,
+	Waypoints
   } from "lucide-svelte";
   	import { Button } from "$lib/components/ui/button";
   	import * as DropdownMenu from "$lib/components/ui/dropdown-menu";
@@ -72,6 +73,13 @@
 				<DropdownMenu.Item>
 					<LineChart class="mr-2 h-5 w-5" />
 					<span>Price Chart</span>
+				</DropdownMenu.Item>
+			</a>
+
+			<a href="/bridge">
+				<DropdownMenu.Item>
+					<Waypoints class="mr-2 h-5 w-5" />
+					<span>Bridge</span>
 				</DropdownMenu.Item>
 			</a>
 
