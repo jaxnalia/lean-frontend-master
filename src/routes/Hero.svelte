@@ -31,7 +31,7 @@
 				class="text-5xl sm:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-violet-600"
 				>$LEAN</span
 			> is</span>
-			the best performing token on PulseChain.
+			leverage on the ecosystem.
 		  </h1>
 		<!-- <div class="h-6 md:h-5" /> -->
 		<p class="leading-7 [&:not(:first-child)]:mt-6 drop-shadow-md">
