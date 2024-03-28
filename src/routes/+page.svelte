@@ -45,7 +45,7 @@
 							clip-rule="evenodd"></path>
 					</svg>
 				</div>
-				<p class="ml-3 leading-5 text-gray-200">
+				<p class="ml-3 leading-5">
 					100% Grass roots hood token.
 				</p>
 			</li>
@@ -57,7 +57,7 @@
 							clip-rule="evenodd"></path>
 					</svg>
 				</div>
-				<p class="ml-3 leading-5 text-gray-200">
+				<p class="ml-3 leading-5">
 					0% Taxes or fees.
 				</p>
 			</li>
@@ -69,7 +69,7 @@
 							clip-rule="evenodd"></path>
 					</svg>
 				</div>
-				<p class="ml-3 leading-5 text-gray-200">
+				<p class="ml-3 leading-5">
 					Fixed supply.
 				</p>
 			</li>
@@ -81,7 +81,7 @@
 							clip-rule="evenodd"></path>
 					</svg>
 				</div>
-				<p class="ml-3 leading-5 text-gray-200">
+				<p class="ml-3 leading-5">
 					Trustless yield without restrictions.
 				</p>
 			</li>
@@ -93,7 +93,7 @@
 							clip-rule="evenodd"></path>
 					</svg>
 				</div>
-				<p class="ml-3 leading-5 text-gray-200">
+				<p class="ml-3 leading-5">
 					Dank memes. 💜
 				</p>
 			</li>
