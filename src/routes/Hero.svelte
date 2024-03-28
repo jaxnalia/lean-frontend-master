@@ -8,7 +8,7 @@
 
 </script>
 
-<div class="bannerimg rounded-3xl p-10 mx-auto flex relative font-medium">
+<div class="bannerimg rounded-3xl p-5 sm:p-10 mx-auto flex relative font-medium">
 	<style>
 		.bannerimg{
 			background-position: center;
@@ -31,7 +31,7 @@
 				class="text-5xl sm:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-violet-600"
 				>$LEAN</span
 			> is</span>
-			leverage on the ecosystem.
+			the best performing token on PulseChain.
 		  </h1>
 		<!-- <div class="h-6 md:h-5" /> -->
 		<p class="leading-7 [&:not(:first-child)]:mt-6 drop-shadow-md">
