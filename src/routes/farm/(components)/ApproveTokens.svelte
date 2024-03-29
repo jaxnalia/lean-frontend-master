@@ -47,6 +47,6 @@
 </script>
 
 <!-- <Input id="amount" type="number" placeholder="Amount" on:input={handleInputChange} bind:value={numberOfTokens} /> -->
-<Button class="hover:bg-gray-700" on:click={approveSpend}>Approve</Button>
+<Button on:click={approveSpend}>Approve</Button>
 <!-- <AlertDialog.Cancel>Cancel</AlertDialog.Cancel> -->
 

@@ -154,7 +154,7 @@
 
 					<AlertDialog.Root>
 						<AlertDialog.Trigger asChild let:builder>
-							<Button disabled class="hover:bg-gray-700" builders={[builder]}>Stake</Button>
+							<Button disabled builders={[builder]}>Stake</Button>
 						</AlertDialog.Trigger>
 						<AlertDialog.Content>
 							<AlertDialog.Header>
@@ -175,7 +175,7 @@
 
 					<AlertDialog.Root>
 						<AlertDialog.Trigger asChild let:builder>
-							<Button class="hover:bg-gray-700" builders={[builder]}>Withdraw</Button>
+							<Button builders={[builder]}>Withdraw</Button>
 						</AlertDialog.Trigger>
 						<AlertDialog.Content>
 							<AlertDialog.Header>
