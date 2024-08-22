@@ -68,6 +68,30 @@
 				</a>
 				
 			</div>
+			<div class="ml-3 flex flex-col justify-center">
+				<a href="/bridge">
+					<Badge class="rounded-full" variant="default">DexScreener</Badge>
+				</a>
+				
+			</div>
+			<!-- <div class="ml-3 flex flex-col justify-center">
+				<a href="https://www.dextools.io/app/en/pulse/pair-explorer/0x9961c2652b301c4a25256db05316d2be11cebab1?t=1724347481947">
+					<Badge class="rounded-full" variant="default">DexTools</Badge>
+				</a>
+				
+			</div>
+			<div class="ml-3 flex flex-col justify-center">
+				<a href="https://www.geckoterminal.com/pulsechain/pools/0x9961c2652b301c4a25256db05316d2be11cebab1">
+					<Badge class="rounded-full" variant="default">GeckoTerminal</Badge>
+				</a>
+				
+			</div>
+			<div class="ml-3 flex flex-col justify-center">
+				
+				<Badge class="rounded-full" variant="secondary">Copy Token Address</Badge>
+				
+				
+			</div> -->
 			<!-- <div class="ml-3 flex flex-col justify-center">
 				<a href="/bridge">
 					<Badge class="rounded-full" variant="secondary">Docs</Badge>

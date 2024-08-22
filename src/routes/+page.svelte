@@ -11,7 +11,7 @@
 
 
 
-<div class="container flex flex-col lg:flex-row justify-center">
+<div class="container mx-auto p-4 sm:p-8 md:p-10 lg:p-12 flex flex-col lg:flex-row justify-center">
 
 	<iframe
 	class="rounded-xl self-center"
@@ -27,8 +27,8 @@
 	min-width: 300px;
 	"
 	/>
-	<span class="h-2"></span>
-	<div class="lg:ml-12 lg:col-start-2 lg:max-w-2xl pb-16 lg:pt-16 self-center lg:self-auto">
+	
+	<div class="lg:ml-12 lg:col-start-2 lg:max-w-2xl p-4 lg:pt-16 self-center lg:self-auto">
 		<a href="https://app.piteas.io/" target="_blank" class="text-gray-400 font-semibold leading-6 uppercase">
 			Piteas.io
 		</a>
@@ -105,7 +105,7 @@
 </div>
 <div class="container mx-auto p-4 sm:p-8 md:p-10 lg:p-12">
 
-	<div class="rounded-3xl p-5 sm:p-10 mx-auto flex relative font-medium">
+	<div class="rounded-3xl">
 		<style>#dexscreener-embed{position:relative;width:100%;padding-bottom:125%;}@media(min-width:1400px){#dexscreener-embed{padding-bottom:65%;}}#dexscreener-embed iframe{position:absolute;width:100%;height:100%;top:0;left:0;border:0;}</style><div id="dexscreener-embed"><iframe class="rounded-3xl" title="dexscreener lean/wpls" src="https://dexscreener.com/pulsechain/0x9961c2652B301c4A25256Db05316d2be11CEbaB1?embed=1&theme=dark"></iframe></div>
 	</div>
 
