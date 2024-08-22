@@ -46,7 +46,7 @@
 					</svg>
 				</div>
 				<p class="ml-3 leading-5">
-					100% Grass roots hood token.
+					100% Grass roots hood token
 				</p>
 			</li>
 			<li class="flex items-start lg:col-span-1">
@@ -58,7 +58,7 @@
 					</svg>
 				</div>
 				<p class="ml-3 leading-5">
-					0% Taxes or fees.
+					0% Taxes or fees
 				</p>
 			</li>
 			<li class="flex items-start lg:col-span-1">
@@ -70,7 +70,7 @@
 					</svg>
 				</div>
 				<p class="ml-3 leading-5">
-					Fixed supply.
+					Fixed supply
 				</p>
 			</li>
 			<li class="flex items-start lg:col-span-1">
@@ -82,7 +82,7 @@
 					</svg>
 				</div>
 				<p class="ml-3 leading-5">
-					Trustless yield without restrictions.
+					Trustless yield without restrictions
 				</p>
 			</li>
 			<li class="flex items-start lg:col-span-1">
@@ -94,7 +94,7 @@
 					</svg>
 				</div>
 				<p class="ml-3 leading-5">
-					Dank memes. 💜
+					Dank memes 💜
 				</p>
 			</li>
 		</ul>

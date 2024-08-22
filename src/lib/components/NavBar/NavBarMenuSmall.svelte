@@ -38,13 +38,13 @@
 				</DropdownMenu.Item>
 			</a>
 
-			<a href="/farm">
+			<!-- <a href="/farm">
 				<DropdownMenu.Item>
 					<Percent class="mr-2 h-5 w-5" />
 					<span>Staking</span>
-					<!-- <DropdownMenu.Shortcut>⇧⌘P</DropdownMenu.Shortcut> -->
-				  </DropdownMenu.Item>
-			</a>
+					 <DropdownMenu.Shortcut>⇧⌘P</DropdownMenu.Shortcut> -->
+				  <!-- </DropdownMenu.Item>
+			</a> -->
 			
 			<!-- <DropdownMenu.Item>
 			  <CreditCard class="mr-2 h-4 w-4" />
@@ -83,12 +83,12 @@
 				</DropdownMenu.Item>
 			</a>
 
-			<a href="/" target="_blank">
+			<!-- <a href="/" target="_blank">
 				<DropdownMenu.Item>
 					<ScrollText class="mr-2 h-5 w-5" />
 					<span>Docs</span>
 				</DropdownMenu.Item>
-			</a>
+			</a> -->
 			
 		  </DropdownMenu.Group>
 		  <DropdownMenu.Separator />

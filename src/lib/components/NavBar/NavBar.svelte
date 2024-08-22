@@ -2,7 +2,7 @@
 	import { Button } from '$lib/components/ui/button';
 	import * as DropdownMenu from '$lib/components/ui/dropdown-menu';
 	import NavBarMenuSmall from './NavBarMenuSmall.svelte';
-	import WalletConnect from '../../WalletConnect.svelte';
+	// import WalletConnect from '../../WalletConnect.svelte';
 	import lean_cup from '../../images/logo.png';
 	import {
 	LineChart,
@@ -81,15 +81,15 @@
 						
 					</DropdownMenu.Content>
 				</DropdownMenu.Root>
-				<a href="/farm">
+				<!-- <a href="/farm">
 					<Button variant="link">Farm</Button>
-				</a>
+				</a> -->
 				<a href="/bridge">
 					<Button variant="link">Bridge</Button>
 				</a>
-				<a href="/" target="_blank">
+				<!-- <a href="/" target="_blank">
 					<Button variant="link">Docs</Button>
-				</a>
+				</a> -->
 				
 			</nav>
 		</div>
@@ -97,7 +97,7 @@
 		<div class="flex flex-1 items-center justify-between space-x-2 sm:space-x-4 md:justify-end">
 			<div class="w-full flex-1 md:w-auto md:flex-none" />
 			<nav class="flex items-center space-x-1">
-				<WalletConnect />
+				<!-- <WalletConnect /> -->
 				<!-- <LightSwitch /> -->
 			</nav>
 		</div>
