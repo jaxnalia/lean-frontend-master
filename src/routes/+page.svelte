@@ -3,13 +3,13 @@
 </script>
 
 
-<div class="container mx-auto p-4 sm:p-8 overflow-hidden md:p-10 lg:p-12 z-20 items-center overflow-hidden">
+<div class="container mx-auto p-4 sm:p-8 md:p-10 lg:p-12">
 
 	<Hero />
 
 </div>
 
-<div class="h-6"></div>
+
 
 <div class="container flex flex-col lg:flex-row justify-center">
 
@@ -103,4 +103,10 @@
 	
 
 </div>
-<div class="h-6" />
+<div class="container mx-auto p-4 sm:p-8 md:p-10 lg:p-12">
+
+	<div class="rounded-3xl p-5 sm:p-10 mx-auto flex relative font-medium">
+		<style>#dexscreener-embed{position:relative;width:100%;padding-bottom:125%;}@media(min-width:1400px){#dexscreener-embed{padding-bottom:65%;}}#dexscreener-embed iframe{position:absolute;width:100%;height:100%;top:0;left:0;border:0;}</style><div id="dexscreener-embed"><iframe class="rounded-3xl" title="dexscreener lean/wpls" src="https://dexscreener.com/pulsechain/0x9961c2652B301c4A25256Db05316d2be11CEbaB1?embed=1&theme=dark"></iframe></div>
+	</div>
+
+</div>

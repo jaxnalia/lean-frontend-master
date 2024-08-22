@@ -34,11 +34,12 @@
 			>
 			is the dankest liquidity on PulseChain
 		  </h1>
+		  <!-- <p class="leading-7 drop-shadow-md">
+			Making memes and sippin'
+		</p> -->
 		<span class="w-20 h-2 xl:h-10 mb-12" />
 		<!-- <div class="h-6 md:h-5" /> -->
-		<!-- <p class="leading-7 [&:not(:first-child)]:mt-6 drop-shadow-md">
-			Making memes and sippin' lean on PulseChain
-		</p> -->
+		
 		<div class="flex">
 			<!-- <a
 				style="font-size: 32px;"

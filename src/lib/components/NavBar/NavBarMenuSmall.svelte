@@ -69,7 +69,7 @@
 			  <Plus class="mr-2 h-5 w-5" />
 			  <span>Suggest Farm</span>
 			</DropdownMenu.Item> -->
-			<a href="https://dexscreener.com/pulsechain/0x9961c2652b301c4a25256db05316d2be11cebab1" target="_blank">
+			<a href="https://dexscreener.com/pulsechain/0x9961c2652b301c4a25256db05316d2be11cebab1">
 				<DropdownMenu.Item>
 					<LineChart class="mr-2 h-5 w-5" />
 					<span>Price Chart</span>
@@ -92,7 +92,7 @@
 			
 		  </DropdownMenu.Group>
 		  <DropdownMenu.Separator />
-		  	<a href="http://x.com/bigjax_pls" target="_blank">
+		  	<a href="http://x.com/bigjax_pls">
 				<DropdownMenu.Item>
 					<User class="mr-2 h-5 w-5" />
 					<span>@bigjax_pls</span>
@@ -105,21 +105,21 @@
 			  <span>Social Media</span>
 			</DropdownMenu.SubTrigger>
 			<DropdownMenu.SubContent>
-				<a href="https://t.me/plsLEAN" target="_blank">
+				<a href="https://t.me/plsLEAN">
 					<DropdownMenu.Item>
 						<Send class="mr-2 h-5 w-5" />
 						<span>Telegram</span>
 					</DropdownMenu.Item>
 				</a>
 			  
-			  	<a href="http://x.com/pls_LEAN" target="_blank">
+			  	<a href="http://x.com/pls_LEAN">
 					<DropdownMenu.Item>
 						<Twitter class="mr-2 h-5 w-5" />
 						<span>Twitter</span>
 					</DropdownMenu.Item>
 			  	</a>
 
-				<a href="https://github.com/LEAN-Token" target="_blank">
+				<a href="https://github.com/LEAN-Token">
 					<DropdownMenu.Item>
 						<Github class="mr-2 h-5 w-5" />
 						<span>GitHub</span>

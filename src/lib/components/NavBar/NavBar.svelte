@@ -22,74 +22,16 @@
 				<a href="/" class="mr-3 flex items-center space-x-2">
 					<img src={lean_cup} alt="LEAN" class="w-8" />
 				</a>
-				<!-- home, charts -->
-				<DropdownMenu.Root>
-					<DropdownMenu.Trigger asChild let:builder>
-						<!-- <Button variant="link" builders={[builder]}>Explore</Button> -->
-					</DropdownMenu.Trigger>
-					<DropdownMenu.Content class="w-auto">
-
-						<!-- <DropdownMenu.Separator /> --> 
-						<a href="/farm">
-							<DropdownMenu.Item>
-								<Percent class="h-5 w-5" />
-								<DropdownMenu.Label>Staking</DropdownMenu.Label>
-							</DropdownMenu.Item>
-						</a>
-						<!-- <DropdownMenu.Separator /> -->
-						<a target="_blank" href="https://dexscreener.com/pulsechain/0x9961c2652b301c4a25256db05316d2be11cebab1">
-							<DropdownMenu.Item>
-								<LineChart class="h-5 w-5" />
-								<DropdownMenu.Label>Price Chart</DropdownMenu.Label>
-							</DropdownMenu.Item>
-						</a>
-						<!-- <DropdownMenu.Separator /> -->
-
-					</DropdownMenu.Content>
-				</DropdownMenu.Root>
-				<!-- socials -->
-				<DropdownMenu.Root>
-					<DropdownMenu.Trigger asChild let:builder>
-						<!-- <Button variant="link" builders={[builder]}>Social Media</Button> -->
-					</DropdownMenu.Trigger>
-					<DropdownMenu.Content class="w-auto">
-						<a target="_blank" href="https://t.me/plsLEAN">
-							<DropdownMenu.Item>
-								<Send class="h-5 w-5" />
-								<DropdownMenu.Label>Telegram</DropdownMenu.Label>
-							</DropdownMenu.Item>
-						</a>
-						<!-- <DropdownMenu.Separator /> -->
-						<a target="_blank" href="http://x.com/pls_lean">
-							<DropdownMenu.Item>
-								<Twitter class="h-5 w-5" />
-								<DropdownMenu.Label>Twitter</DropdownMenu.Label>
-							</DropdownMenu.Item>
-						</a>
-						<a target="_blank" href="https://github.com/LEAN-Token">
-							<DropdownMenu.Item>
-								<Github class="h-5 w-5" />
-								<DropdownMenu.Label>Github</DropdownMenu.Label>
-							</DropdownMenu.Item>
-						</a>
-						<!-- <DropdownMenu.Separator /> -->
-						<!-- <a href="https://discord.gg/NRg34Rawc6" class={navItem}>
-							<DropdownMenu.Item>
-								<DropdownMenu.Label>Discord</DropdownMenu.Label>
-							</DropdownMenu.Item>
-						</a> -->
-						
-					</DropdownMenu.Content>
-				</DropdownMenu.Root>
+				
 				<!-- <a href="/farm">
 					<Button variant="link">Farm</Button>
 				</a> -->
 				<a href="/bridge">
 					<Button variant="link">Bridge</Button>
 				</a>
-				<!-- <a href="/" target="_blank">
-					<Button variant="link">Docs</Button>
-				</a> -->
+				<a href="https://dexscreener.com/pulsechain/0x9961c2652b301c4a25256db05316d2be11cebab1">
+					<Button variant="link">Chart</Button>
+				</a>
 				
 			</nav>
 		</div>
