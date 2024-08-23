@@ -46,7 +46,7 @@
 					</svg>
 				</div>
 				<p class="ml-3 leading-5">
-					100% Grass roots hood token
+					Grass roots hood token
 				</p>
 			</li>
 			<li class="flex items-start lg:col-span-1">
@@ -73,7 +73,7 @@
 					Fixed supply
 				</p>
 			</li>
-			<li class="flex items-start lg:col-span-1">
+			<!-- <li class="flex items-start lg:col-span-1">
 				<div class="flex-shrink-0">
 					<svg class="w-5 h-5 text-indigo-600" fill="blueviolet" viewBox="0 0 20 20">
 						<path fill-rule="evenodd"
@@ -84,7 +84,7 @@
 				<p class="ml-3 leading-5">
 					Trustless yield without restrictions
 				</p>
-			</li>
+			</li> -->
 			<li class="flex items-start lg:col-span-1">
 				<div class="flex-shrink-0">
 					<svg class="w-5 h-5 text-indigo-600" fill="blueviolet" viewBox="0 0 20 20">
