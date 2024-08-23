@@ -30,19 +30,19 @@
 		<span class="block text-sm text-center">
 			© 2024 
 			<a
-				style="margin-right: -3px;"
+				style=""
 				href="https://leantoken.org/"
 				class="text-purple-600 hover:underline dark:text-violet-500"
 			>
 				LEAN
-			</a>. Built by
+			</a>| Built by
 			<a
-				style="margin-right: -3px;"
+				style=""
 				href="https://x.com/bigjax_pls"
 				class="text-purple-600 hover:underline dark:text-violet-500"
 			>
 				BigJax
-			</a>.
+			</a>
 		</span>
 		<div>
 			<div class="flex items-center gap-1 px-2">
