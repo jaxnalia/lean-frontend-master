@@ -56,7 +56,8 @@ const config = {
 			},
 			fontFamily: {
 				sans: [...fontFamily.sans],
-				poppins: ['"Poppins"', "sans-serif"]
+				poppins: ['"Poppins"', "sans-serif"],
+				inter: ['"Inter"', "sans-serif"]
 			}
 		}
 	},
