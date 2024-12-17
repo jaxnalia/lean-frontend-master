@@ -99,10 +99,12 @@
 			</li>
 		</ul>
 	</div>
-	
-	
 
 </div>
+<d class="container">
+	<p class="text-center font-semibold text-2xl italic p-4">"You must have no expectation of profit from the work of others." -RH</p>
+</d>
+
 <div class="container mx-auto p-4 sm:p-8 md:p-10 lg:p-12">
 
 	<div class="rounded-3xl">
