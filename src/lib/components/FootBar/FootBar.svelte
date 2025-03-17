@@ -38,7 +38,7 @@
 			</a>| Built by
 			<a
 				style=""
-				href="https://x.com/bigjax_pls"
+				href="https://x.com/bigjaxcapital"
 				class="text-purple-600 hover:underline dark:text-violet-500"
 			>
 				BigJax
