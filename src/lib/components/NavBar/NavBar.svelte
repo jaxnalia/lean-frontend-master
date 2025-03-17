@@ -39,6 +39,10 @@
 		<div class="flex flex-1 items-center justify-between space-x-2 sm:space-x-4 md:justify-end">
 			<div class="w-full flex-1 md:w-auto md:flex-none" />
 			<nav class="flex items-center space-x-1">
+				<a href="https://app.leantoken.org/">
+					<Button>Launch App</Button>
+				</a>
+				
 				<!-- <WalletConnect /> -->
 				<!-- <LightSwitch /> -->
 			</nav>
