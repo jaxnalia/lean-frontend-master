@@ -14,7 +14,7 @@
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
-			background-image: URL("https://bigjax.s3.eu-west-2.amazonaws.com/lean-land-i-love-lean.gif");
+			background-image: URL("https://c.tenor.com/MHKfTqZCZrQAAAAd/tenor.gif");
 		}
 	</style>
 	<div class="flex flex-col relative z-20">
